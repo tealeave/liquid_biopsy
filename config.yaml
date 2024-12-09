@@ -1,0 +1,19 @@
+reference: "data/reference.fasta"
+fastq_r1: "data/sample_R1.fastq.gz"
+fastq_r2: "data/sample_R2.fastq.gz"
+sample_name: "sample1"
+output_dir: "results"
+
+# Intermediate and final outputs
+sorted_bam: "results/aligned_sorted.bam"
+deduped_bam: "results/aligned_deduped.bam"
+lc_metrics: "results/lc_metrics.txt"
+dedup_metrics: "results/dedup_metrics.txt"
+
+raw_vcf: "results/variants_raw.vcf.gz"
+filtered_vcf: "results/variants_filtered.vcf.gz"
+final_report: "results/final_report.txt"
+qc_stats: "results/qc_stats.txt"
+
+ml_model: "data/model.pkl"
+min_qual: 30
